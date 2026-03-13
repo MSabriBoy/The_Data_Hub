@@ -3,7 +3,7 @@ const router = require('./routes/blogRoutes')
 
 const app= express();
 
-const port= 5000;
+const port = process.env.PORT || 5000;
 
 
 //custom middleware
