@@ -50,10 +50,9 @@ npm install
 npx nodemon server.js
 ```
 
-### Server will run on
-```bash
+### Server will run on:
+
 http://localhost:5000
-```
 
 ## 📌 Learning Outcomes
 
