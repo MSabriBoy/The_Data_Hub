@@ -19,16 +19,6 @@ app.use(express.json())
 
 app.use(router)
 
-//custom middleware
-app.use((req,res,next)=>{
-    const time= new Date().toLocaleTimeString()
-
-    console.log(`[${req.method}] ${req.path} - ${time}`)
-
-    next();
-})
-
-
 app.get('/',(req,res)=>{
     res.json({
         message: "Server Working..."
